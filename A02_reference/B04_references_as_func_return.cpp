@@ -16,7 +16,6 @@ int& test02(){
     static int a =66; // 静态变量存放在全局区
 
     return a;
-
 }
 int main()
 {

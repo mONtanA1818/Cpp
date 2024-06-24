@@ -27,8 +27,8 @@ public:
     }
 
     void set_Age(int age = 18){
-        cout<<"请输入年龄"<<endl;
-        cin>>age;
+        // cout<<"请输入年龄"<<endl;
+        // cin>>age;
         if (age>150||age<0)
         {
             cout<<"年龄"<<age<<"输入有误";
@@ -37,6 +37,10 @@ public:
         m_age=age;
     }
 
+    string get_Idol()
+    {
+        return m_Idol;
+    }
 private:
     string m_Name;  // 姓名 可读可写
     string m_Idol;  // 偶像 只写
@@ -61,4 +65,6 @@ int main()
 
     p1.set_Age(76);
     cout << "p1对象的年龄为" << p1.getAge()<<endl;
+
+    cout << "p1对象的偶像为" << p1.get_Idol()<<endl;
 }
