@@ -72,7 +72,7 @@ int main()
     Cube c1;
     c1.setCube(1, 2, 3);
     Cube c2;
-    c2.setCube(1,3,3);
+    c2.setCube(1,2,3);
     cout << "c1的表面积为" << c1.calculate_area() << endl;
     cout << "c1的体积为" << c1.calculate_Volumetric() << endl;
 

@@ -46,7 +46,7 @@ goodGay::~goodGay()
 
 void goodGay::visit()
 {
-    cout << "visit()正在访问" << building->sittingRoom << "|||" << building->bedRoom << endl;
+    cout << "visit()正在访问" << building->bedRoom << "|||" << building->bedRoom << endl;
 }
 
 void goodGay::visit2()

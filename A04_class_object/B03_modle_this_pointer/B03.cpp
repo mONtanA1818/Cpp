@@ -14,14 +14,16 @@ class Person{
             return;
         }
         
-        cout<<"call func2"<<m_Age<<endl;
+        cout<<"call func2"<<endl;
     }
     int m_Age;
 };
 
 
 void test01(){
-    Person *p=NULL;
+    Person p2;
+    Person *p=&p2;
+    // *p = p2;
     p->func1();
     p->func2();
 }

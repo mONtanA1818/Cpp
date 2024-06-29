@@ -49,6 +49,9 @@ void doWork(Person p1)
 {
 
 }
+
+
+
 void test02(){
     Person p1;    
     doWork(p1); // 相当于拷贝出了一个临时变量存放在栈区, 生存时间仅限于doWork的作用域上
