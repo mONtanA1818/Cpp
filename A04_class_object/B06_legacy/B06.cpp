@@ -61,6 +61,7 @@ void test02()
 
     cout << "通过类名访问" << endl;
     Son::func();
+    // 第一个::代表通过类名方式访问 第二个::代表访问父类作用域下
     Son::Base::func();
 };
 int main()
